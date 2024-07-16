@@ -1,0 +1,9 @@
+{
+  "name": "NextDNS indicator",
+  "description": "Controls the NextDNS service.",
+  "uuid": "nextdns@mysticnico.github.com",
+  "shell-version": [
+    "46"
+  ],
+  "url": "https://github.com/mysticNicoCZ/nextdns-gnome-indicator"
+}
