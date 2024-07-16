@@ -9,3 +9,4 @@ An indicator gnome extension for controlling next-dns cli
 3. restart gnome to see the extension
 
 
+This extension is not affiliated, funded, or in any way associated with NextDNS.
