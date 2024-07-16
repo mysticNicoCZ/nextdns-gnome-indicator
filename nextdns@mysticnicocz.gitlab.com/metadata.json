@@ -1,8 +1,0 @@
-{
-  "name": "NextDNS indicator",
-  "description": "Controls the NextDNS service",
-  "uuid": "nextdns@mysticnicocz.github.com",
-  "shell-version": [
-    "46"
-  ]
-}
