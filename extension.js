@@ -39,12 +39,12 @@ class Indicator extends PanelMenu.Button {
     set_status(enable) {
     this.set_current_status(null, true);
     if(enable) {
-        execCommand("pkexec nextdns start && nextdns activate").then(res => {
+         execCommand(["pkexec", "bash", "-c", "nextdns start && nextdns activate"]).then(res => {
         if(res === "")
         this.set_current_status(enable);
       });
       } else {
-      execCommand("pkexec nextdns stop && nextdns deactivate").then(res => {
+      execCommand(["pkexec", "bash", "-c", "nextdns stop && nextdns deactivate && systemctl restart systemd-resolved.service"]).then(res => {
       if(res === "")
        this.set_current_status(enable);
       });
