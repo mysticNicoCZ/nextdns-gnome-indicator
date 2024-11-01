@@ -2,12 +2,11 @@ import Gio from "gi://Gio";
 
 export function execCommand(cmd, input = null, cancellable = null) {
     let flags = Gio.SubprocessFlags.STDOUT_PIPE;
-
-    if (input !== null)
+if (input !== null)
         flags |= Gio.SubprocessFlags.STDIN_PIPE;
 
     let proc = new Gio.Subprocess({
-        argv: cmd.split(" "),
+        argv: cmd,
         flags: flags
     });
     proc.init(cancellable);
@@ -22,3 +21,4 @@ export function execCommand(cmd, input = null, cancellable = null) {
         });
     });
 }
+

@@ -30,7 +30,7 @@ const Indicator = GObject.registerClass(
 class Indicator extends PanelMenu.Button {
 
     get_current_status() {
-      execCommand("nextdns status").then(res => {
+      execCommand(["nextdns", "status"]).then(res => {
         this.enabled = res.trim() === "running";
         this.set_current_status(this.enabled);
       });
@@ -39,7 +39,7 @@ class Indicator extends PanelMenu.Button {
     set_status(enable) {
     this.set_current_status(null, true);
     if(enable) {
-         execCommand(["pkexec", "bash", "-c", "nextdns start && nextdns activate"]).then(res => {
+        execCommand(["pkexec", "bash", "-c", "nextdns start && nextdns activate"]).then(res => {
         if(res === "")
         this.set_current_status(enable);
       });
