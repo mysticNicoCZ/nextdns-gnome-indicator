@@ -4,7 +4,7 @@ import Adw from 'gi://Adw';
 import {ExtensionPreferences, gettext as _} from 'resource:///org/gnome/Shell/Extensions/js/extensions/prefs.js';
 
 
-export default class ExamplePreferences extends ExtensionPreferences {
+export default class NextDNSPreferences extends ExtensionPreferences {
     fillPreferencesWindow(window) {
         window._settings = this.getSettings('org.gnome.shell.extensions.nextdns@mysticnico.github.com');
         const page = new Adw.PreferencesPage({
