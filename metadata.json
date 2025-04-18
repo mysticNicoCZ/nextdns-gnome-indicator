@@ -4,7 +4,9 @@
   "uuid": "nextdns@mysticnico.github.com",
   "shell-version": [
     "46",
-    "47"
+    "47",
+    "48"
   ],
+  "settings-schema": "org.gnome.shell.extensions.nextdns@mysticnico.github.com",
   "url": "https://github.com/mysticNicoCZ/nextdns-gnome-indicator"
 }

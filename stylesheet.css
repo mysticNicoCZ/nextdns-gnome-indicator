@@ -4,4 +4,16 @@
     height: 20px;
     width: 12px;
 }
+.icon {
+    background-size: 15px;
+    height: 20px;
+    width: 12px;
+}
+.blue {
+        background-image: url("nextdns.svg");
+}
+
+.white {
+        background-image: url("nextdns-white.svg");
+}
 

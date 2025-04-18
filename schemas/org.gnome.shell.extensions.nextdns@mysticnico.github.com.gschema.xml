@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.nextdns@mysticnico.github.com" path="/org/gnome/shell/extensions/nextdns@mysticnico.github.com/">
+    <key name="monochrome-icon" type="b">
+      <default>true</default>
+      <summary>Use monochrome icon</summary>
+      <description>Toggle between blue and monochrome icon.</description>
+    </key>
+  </schema>
+</schemalist>
+  
