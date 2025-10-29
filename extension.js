@@ -92,7 +92,7 @@ class Indicator extends PanelMenu.Button {
     }
 //@@Icon end
     _init(settings) {
-        super._init(0.2, _('NextDNS Indicator'));
+        super._init(0.3, _('NextDNS Indicator'));
         this._settings = settings;
         this._settings.connect('changed::monochrome-icon', (settings, key) => {
             this._updateIconColor();
