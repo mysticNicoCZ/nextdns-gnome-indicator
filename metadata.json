@@ -6,7 +6,8 @@
     "46",
     "47",
     "48",
-    "49"
+    "49",
+    "50"
   ],
   "settings-schema": "org.gnome.shell.extensions.nextdns@mysticnico.github.com",
   "url": "https://github.com/mysticNicoCZ/nextdns-gnome-indicator"
